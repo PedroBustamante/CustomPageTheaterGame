@@ -1,0 +1,129 @@
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: space-around;
+  background-color: #7fa0a5;
+}
+.carlosSection {
+  height: 140vh;
+  background-image: url("images/CarlosHistorySearch.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+}
+.xavierSection {
+  height: 140vh;
+  background-image: url("images/XavierHistorySearch.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+}
+.narcisaSection {
+  height: 140vh;
+  background-image: url("images/NarcisaHistorySearch.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+}
+.narcisaEmailSection {
+  height: 140vh;
+  background-image: url("images/NarcisaEmail.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+}
+.emailReSection {
+  height: 140vh;
+  background-image: url("images/emailRe.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+}
+.emailReReSection {
+  height: 140vh;
+  background-image: url("images/emailReRe.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+}
+.emailReReReSection {
+  height: 140vh;
+  background-image: url("images/emailReReRe.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+}
+.profiles {
+  display: flex;
+  gap: 20px;
+}
+.profileAndPassword {
+  background: #fff;
+  padding: 40px 20px 20px;
+  border-radius: 5px;
+  box-shadow: 4px 3px 6px 0px rgb(0 0 0 / 16%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profilePicture {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 3px 6px 0px rgb(0 0 0 / 16%);
+  border: 3px solid #fff;
+  margin-bottom: 20px;
+}
+.profilePicture img {
+  width: 160%;
+  height: auto;
+}
+.blockDiv {
+  padding: 30px 0;
+  color: #cdcdcd;
+}
+.singleInputField {
+  width: 200px;
+  text-align: center;
+  margin-top: 5px;
+  border: 1px solid #bcbcbc;
+  border-radius: 5px;
+  padding: 7px 10px;
+}
+.signInButton {
+  width: 100%;
+  height: 20;
+  align-self: center;
+  background-color: transparent;
+  color: #7fa0a5;
+  border: 2px solid #7fa0a5;
+  border-radius: 5px;
+  padding: 7px 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+.signInButton:hover {
+  color: #fff;
+  background-color: #7fa0a5;
+}
+.blockDiv {
+  display: block;
+  align-items: center;
+  align-self: center;
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 87px;
+}
+.button {
+  font-size: larger;
+  padding: 7px;
+}

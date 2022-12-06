@@ -1,0 +1,21 @@
+{
+  "name": "custom-theater-game",
+  "version": "1.0.0",
+  "description": "A small project for an UFMG theater class",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 8080",
+    "lint": "eslint src --max-warnings=0"
+  },
+  "author": "Pedro Bustamante, pedro.rios.bust@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.29.0",
+    "formik": "^2.2.9",
+    "next": "^13.0.6",
+    "next.js": "^1.0.3",
+    "react-jss": "^10.9.2"
+  }
+}
